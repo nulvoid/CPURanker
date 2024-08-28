@@ -67,8 +67,6 @@ for file in csv_files:
             'Release_Year': release_year,
             'Single': avg_single,
             'Multi': avg_multi,
-            # 'TDP_Penalty': tdp_penalty,  # Do not include TDP_Penalty in the CSV
-            # 'L3_Cache_Bonus': l3_cache_bonus  # Do not include L3_Cache_Bonus in the CSV
         })
         print(f"Results appended for file: {file}")
 
